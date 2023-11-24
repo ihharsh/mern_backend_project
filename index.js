@@ -14,9 +14,9 @@ dotenv.config();
 
 app.use(express.json());
 
-const userRoutes = require("/Routes/userRoutes.js");
-const chatRoutes = require("/Routes/chatRoutes.js");
-const messageRoutes = require("/Routes/messageRoutes.js");
+const userRoutes = require("./Routes/userRoutes.js");
+const chatRoutes = require("./Routes/chatRoutes.js");
+const messageRoutes = require("./Routes/messageRoutes.js");
 
 const connectDb = async () => {
   try {
